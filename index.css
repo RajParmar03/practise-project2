@@ -1,0 +1,89 @@
+.maincontainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:60px;
+    width: 90%;
+    margin: 50px auto auto auto;
+}
+.playerCard{
+    background-color: antiquewhite;
+    border: 1px solid gray;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.playerCard img{
+    border-radius: 100px;
+    width: 30%;
+    margin: auto auto 30px auto;
+}
+.playerCard p {
+    margin : auto auto 20px auto;
+}
+.playerCard button{
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.modal{
+    width: 30%;
+    height: 60vh;
+    position : fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: red;
+    opacity: 0;
+    z-index: -2;
+}
+.modal h1{
+    margin: auto auto 20px auto;
+}
+.transparent{
+    background-color: rgb(0,0,0,0.5);
+    position: fixed;
+    top: 0%;
+    height: 100vh;
+    width: 100%;
+    opacity: 0;
+    z-index: -1;
+}
+.activateModal{
+    z-index: 2;
+    opacity: 1;
+}
+.activateTransparent{
+    z-index: 1;
+    opacity: 1;
+}
+.pagination{
+    width: 15%;
+    height: 60px;
+    margin: 30px auto auto auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pagination button{
+    padding:10px 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.pagination .page{
+    font-size: 30px;
+}
+.inputBox{
+    width:30%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.inputBox > input{
+    width:75%;
+    padding : 5px;
+    font-size: 18px;
+}
+.inputBox > button{
+    padding: 5px 8px;
+    font-size: 18px;
+    cursor:pointer;
+}

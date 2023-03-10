@@ -1,0 +1,66 @@
+*{
+    font-family: sans-serif;
+}
+.dateInputBox{
+    width:60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.dateInputBox  input , .dateInputBox label{
+    width:40%;
+    padding : 5px;
+    font-size: 16px;
+}
+.dateInputBox > button{
+    padding: 5px 8px;
+    font-size: 16px;
+    cursor:pointer;
+}
+.mainContainer{
+    margin: 50px auto auto auto;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 25px;
+}
+.gameCard{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: azure;
+    border: 1px solid gray;
+}
+.gameCard > .smallCard{
+    width: 40%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.smallCard > h1{
+    margin: auto auto 10px auto;
+}
+.smallCard > p {
+    line-height: 25px;
+}
+.smallCard span{
+    background-color: aquamarine;
+    margin : auto auto auto 10px;
+    padding: 3px 10px;
+}
+.pagination{
+    width: 15%;
+    height: 60px;
+    margin: 30px auto auto auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pagination button{
+    padding:10px 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.pagination .page{
+    font-size: 30px;
+}
